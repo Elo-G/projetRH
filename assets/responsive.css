@@ -1,0 +1,386 @@
+
+/* ------------------------------------------------------------------------------PAGE INDEX-------------------------------------------------------------------------------- */
+ 
+/*--------------------------- @media(max-width: 1280px)---------------------------- */
+
+@media(max-width: 1280px){
+ #boutonConnect{
+     margin-top: -18%;
+    }
+}
+
+
+/*------------------@media(max-width: 1024px)I pad mini (à l'horizontal)--------------*/
+
+@media(max-width: 1024px){ 
+ #forBackground{
+     width: 514px;
+     height: 499px;
+   }
+
+ #boutonConnect{
+     width: 35%;
+    }
+
+ #boutonRegistrer{
+     width: 35%;
+    }
+}
+
+
+/*-----------@media(max-width: 768px)I pad mini (à la verticale)----------------------*/
+
+@media(max-width: 768px){
+    #forBackground{
+        margin-top: 100px;
+    }
+}
+
+
+/*-------------------@media(max-width: 414px)I phone 6,7,8 Plus-------------*/
+
+@media(max-width: 414px){
+    h1 {
+       font-size:40px ;
+    }
+
+    #forBackground{
+        margin-top: 40px;
+        width: 335px;
+        height: 320px;
+        }
+
+    #sectionIndexContent p{
+        font-size: 23px;
+        } 
+
+    #boutonConnect a{
+        font-size: 15px;
+    }
+
+    #boutonRegistrer a {
+        font-size: 15px;
+        }
+}
+
+
+/* ------------------------------------------------------------------------------PAGE MAIN-------------------------------------------------------------------------------- */
+ 
+/*--------------------------- @media(max-width: 1280px)---------------------------- */
+
+@media(max-width: 1280px){
+
+    body{
+        font-size: 17px;
+    }
+        
+    #nav-link{
+        
+        padding-top: 6%;
+    }
+
+#addBouton{
+    width: 25%;
+    margin-left: 55px;
+}
+
+.cardWorker{
+    width: 28%;
+    height:400px ;
+}
+
+#command{
+    margin-top:5% ;
+}
+
+#command a{
+    font-size: 15px;
+}
+    }  
+
+
+   
+   
+   /*------------------@media(max-width: 1024px)I pad mini (à l'horizontal)--------------*/
+   
+   @media(max-width: 1024px){ 
+    body{
+        font-size: 15px;
+    }
+
+    #hListingPage{
+        margin-top: 80px;   
+      }
+
+      #addBouton{
+        width: 30%;
+        height: 40px;
+        margin-left: 40px;
+    }
+
+        #addBouton a{
+           
+            font-size: 14px;
+
+        }
+        
+    
+
+    .cardWorker{
+        width: 28%;
+        height:370px ;
+    }
+   
+}
+   
+   
+   /*-----------@media(max-width: 768px)I pad mini (à la verticale)----------------------*/
+   
+   @media(max-width: 768px){
+
+    body{
+        font-size: 18px;
+    }
+    
+    #nav-link {
+        width: 20%;
+        font-size:20px ;
+        margin-left: 25%;
+        padding-top: 10%;
+    }
+
+    #pageContent{
+        width:80%;
+    }
+
+    #hListingPage{
+     font-size: 26px;  
+     margin-top: 60px;   
+      }
+
+      #addBouton{
+        width: 40%;
+        height: 40px;
+        margin-left: 20px;
+    }
+
+
+      .cardWorker{
+        width: 45%;
+        height:340px ;
+    }
+
+    #idImg{
+    
+        width: 110px;
+        height: 130px;
+      
+    }
+   }
+   
+   
+   /*-------------------@media(max-width: 414px)I phone 6,7,8 Plus-------------*/
+   
+   @media(max-width: 414px){
+
+    body{
+        font-size: 15px;
+    }
+       h1 {
+          font-size:30px ;
+       }
+
+       #nav-link {
+        width: 25%;
+        font-size:12px ;
+        margin-left: 25%;
+        padding-top: 13%;
+    }
+
+
+    #addBouton{
+        width: 70%;
+        height: 20px;
+        margin-left: 46px;
+    }
+
+   
+    .cardWorker{
+        width: 70%;
+        height:300px ;
+    }
+
+    #idImg{
+       
+        width: 95px;
+        height: 110px;
+       
+    }
+
+    #command a{
+        font-size: 12px;
+    }
+   
+   }
+
+
+/* ------------------------------------------------------------------------------PAGE FORM REGISTER-------------------------------------------------------------------------------- *//*--------------------------- @media(max-width: 1280px)---------------------------- */
+
+/*--------------------------- @media(max-width: 1280px)---------------------------- */
+
+ @media(max-width: 1280px){
+ .forInput{
+     width: 60%;
+    }
+
+ #validerButton{
+     margin-left: 46%;
+   }
+}
+
+
+/*-----------@media(max-width: 768px)I pad mini (à la verticale)----------------------*/
+   
+@media(max-width: 768px){
+ #registerForm{
+     margin-top: 100px;
+   }   
+
+ .forInput{
+     width: 70%;
+     font-size: 20px;
+   }
+
+ #validerButton{
+     font-size: 20px;
+     margin-left: 57%;
+   }
+}
+
+
+ /*-------------------@media(max-width: 414px)I phone 6,7,8 Plus-------------*/
+   
+ @media(max-width: 414px){
+ .forInput{
+     width: 100%;
+     font-size: 16px;
+   }
+
+ #validerButton{
+     width: 22%;
+     font-size: 16px;
+     margin-top: 15px;
+     margin-left: 80%;
+   }
+ }
+
+
+ /* ------------------------------------------------------------------------------PAGE FORM LOGIN-------------------------------------------------------------------------------- *//*--------------------------- @media(max-width: 1280px)---------------------------- */
+
+/*--------------------------- @media(max-width: 1280px)---------------------------- */
+
+@media(max-width: 1280px){
+ #mailLogin{
+     margin-left: 19%;
+   }
+
+ #pswdLogin{
+     margin-left: 19%;
+    }
+
+ #loginButton{
+     width:16%;
+     font-size: 20px;
+     margin-left: 63%;
+   }
+}
+
+
+/*------------------@media(max-width: 1024px)I pad mini (à l'horizontal)--------------*/ 
+
+@media(max-width: 1024px){ 
+ #loginButton{
+     width:20%;
+     margin-left: 60%;
+   }
+}
+
+
+/*-----------@media(max-width: 768px)I pad mini (à la verticale)----------------------*/
+
+@media(max-width: 768px){
+ #mailLogin{
+     margin-top: 100px;
+     margin-left: 15%;
+    }
+      
+   #pswdLogin{
+     margin-left: 15%;
+    }
+   
+ #loginButton{
+     width:25%;
+     margin-left: 60%;
+    }      
+}
+
+
+/*-------------------@media(max-width: 414px)I phone 6,7,8 Plus-------------*/
+   
+@media(max-width: 414px){
+    #mailLogin{
+      margin-left:0;
+    }
+         
+    #pswdLogin{
+     margin-left:0;
+    }
+      
+    #loginButton{
+     width:35%;
+     font-size: 15px;
+     margin-top: 15px;
+     margin-left: 66%;
+    }  
+}
+
+
+/*--------------------------------------------------------------------- PAGE ADDWORKER'S FORM--------------------------------------------------------------- */
+
+/*-----------@media(max-width: 768px)I pad mini (à la verticale)----------------------*/
+   
+@media(max-width: 768px){
+    h2{
+      margin-top:60px ;
+    }
+
+    #formAddEmployes{
+      margin-top: 30px;
+    } 
+}
+
+
+/*-------------------@media(max-width: 414px)I phone 6,7,8 Plus-------------*/
+   
+@media(max-width: 414px){
+    h2{
+        margin-top:40px ;
+    }
+
+    #formAddEmployes{
+        margin-top: 30px;
+    }
+
+    #formAddEmployes label{
+        font-size: 20px;
+    }
+
+    #formAddEmployes input{
+        width: 70%;
+        margin-top: 10px;
+    }
+
+    #addButton{
+        font-size: 18px;
+    }
+}
